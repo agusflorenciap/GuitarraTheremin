@@ -21,4 +21,29 @@ El sensor HC-SR04 calcula la distancia de la mano del usuario. Este mismo está 
 - <b> Sensor ultrasónico HC-SR04</b>
 - <b> Interfaz PreSonus AudioBox USB</b>
 
+<br />
+
+<h1>[ENG] MIDI Controller: Guitar-Theremin</h1>
+
+<h2>Description</h2>
+The project involved creating an innovative device, which was based on a MIDI controller using Arduino. This device is installed on the body of an electric guitar, and by moving the hand closer to or further away from the device, the sound can be manipulated to simulate a theremin.
+
+The HC-SR04 sensor calculates the distance of the user's hand, connected to Arduino programmed with code to receive and process the recorded measurements. Two additional software programs were used to simulate the MIDI port: Hairless MIDI for converting Arduino signals (via USB) to MIDI format, and LoopBe1 to create a virtual MIDI port connection. Additionally, the electric guitar is connected via a USB interface, with desired parameters adjusted within the DAW to begin using the device.
+<br />
+
+<h2>Language and environment</h2>
+
+- <b>Arduino in Arduino IDE</b>
+
+<h2>Additional Software</h2>
+
+- <b> Hairless MIDI </b>
+- <b> LoopBe1</b>
+- <b> DAW: FL Studio 20</b>
+
+<h2>Hardware</h2>
+
+- <b> Arduino NANO</b>
+- <b> HC-SR04 ultrasonic sensor</b>
+- <b> PreSonus AudioBox USB interface</b>
 
